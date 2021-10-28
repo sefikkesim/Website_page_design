@@ -35,7 +35,7 @@ nav a{
     text-decoration: none;
     margin:1rem;
 }
-nav a:first-child {
+nav a:active {
     color: purple;
 }
 .main1{

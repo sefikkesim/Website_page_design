@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+
+    
 }
 .container{
     width: 100%;
@@ -35,6 +38,9 @@ nav a{
     color: white;
     text-decoration: none;
     margin:1rem;
+}
+nav a:active {
+    color: purple;
 }
 .main1{
     background-color: rgb(53,66,74);
@@ -74,6 +80,7 @@ nav a{
     border: 0.1rem solid rgb(206, 202, 202) ;
     margin: 0.2rem;
     padding: 2rem 1rem;
+    width: 100%;
 }
 .main2-services h3,p{
     margin: 0.8rem 0.8rem;
