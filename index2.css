@@ -2,14 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100%;
-    height: 100%;
 }
 .container{
     width: 100%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 90px 90px 660px 120px;
+    grid-template-rows: 90px 90px 600px 120px ;
 }
 .header{
     background-color:rgb(53,66,74);
@@ -38,9 +36,6 @@ nav a{
     text-decoration: none;
     margin:1rem;
 }
-nav a:first-child {
-    color: purple;
-}
 .main1{
     background-color: rgb(53,66,74);
     display: flex;
@@ -67,25 +62,46 @@ nav a:first-child {
     height: 2rem ;
 }
 .main2{
-   display: flex;
-    letter-spacing: 0.05rem;
+    display: flex;
 }
-.main2-what-we-do,.main2--about{
-    margin:2rem ;
+.main2-services{
+    margin: 2rem 2rem 0.2rem 1rem;
+    display: grid;
+    grid-template-rows: 11.5rem 11.5rem 11.5rem;
 }
-.main2--about p{
-    margin:1rem 0 ;
+.main2--design,.main2--maintenance,.main2--hosting{
+    background-color: rgb(230,230,230) ;
+    border: 0.1rem solid rgb(206, 202, 202) ;
+    margin: 0.2rem;
+    padding: 2rem 1rem;
 }
-#main2--about-content2,.main2-what-we-do{
-    background-color:  rgb(53,66,74);
+.main2-services h3,p{
+    margin: 0.8rem 0.8rem;
+    letter-spacing: 0.01rem;
+}
+.main2--form-content{
+    background-color:rgb(53,66,74);
+    margin: 1rem 0.5rem 0 3rem;
+    padding: 1rem 2.5rem 1rem 1rem;
+}
+
+.main2--form-content h3{
     color: white;
-    padding: 1rem;
+    margin: 1rem 0 ;
 }
-.main2-what-we-do {
- padding: 1rem;
+label{
+    color: white;
 }
-.main2-what-we-do p{
-    margin: 2rem  0rem 2rem 0 ;
+#main1--form-name,#main1--form-email{
+    width: 22rem;
+    height: 1.7rem;
+}
+#main1--form-submit-btn{
+    background-color: red;
+    border: none;
+    width: 4.5rem;
+    height: 2.2rem;
+    color: white;
 }
 .footer{
     background-color: rgb(53,66,74);
@@ -99,34 +115,4 @@ nav a:first-child {
 }
 #footer--logo{
     width: 12rem;
-}
-@media (max-width: 650px){
-.header{
-    justify-content:center;
- }   
-.header--left{
-    display: none;
-}
-.main1{
-    display: flex;
-    justify-content: center;
-}
-.main1--left{
-    display: none;
-}
-.main2{
-    display: flex;
-    flex-direction: column;
-}
-.main2-what-we-do,.main2--about{
-    margin:1rem ;
-}
-}
-@media (max-width: 500px){
-.container{
-display: grid;
-grid-template-columns: 100%;
-grid-template-rows:  75px 75px 550px 90px;
-
-}
 }
