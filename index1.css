@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 90px 90px 660px 120px;
+}
+.header{
+    background-color:rgb(53,66,74);
+    border-bottom: 0.2rem solid purple;
+    display: flex;
+    justify-content: space-between;
+}
+.header--left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    margin-left: 1.5rem;
+}
+
+.header--right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+span{
+    color:purple ;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin:1rem;
+}
+nav a:first-child {
+    color: purple;
+}
+.main1{
+    background-color: rgb(53,66,74);
+    display: flex;
+    justify-content: space-between;
+}
+.main1--left,.main1--right{
+    color: white;
+    margin: 0 1rem 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#main1-right-submit-input{
+    width: 5rem;
+    height: 2rem;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 0.2rem;
+}
+#main1--right-email-input{
+    width: 13rem;
+    height: 2rem ;
+}
+.main2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40% ;
+}
+.main2-what-we-do,.main2--about{
+    margin:2rem ;
+}
+.main2--about p{
+    margin:1rem 0 ;
+}
+#main2--about-content2,.main2-what-we-do{
+    background-color:  rgb(53,66,74);
+    color: white;
+    padding: 1rem;
+}
+.main2-what-we-do {
+ height: 30%;
+ padding: 2rem 2rem 2rem 1rem;
+}
+.main2-what-we-do p{
+    margin: 2rem  0rem 2rem 0 ;
+}
+.footer{
+    background-color: rgb(53,66,74);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#footer--content{
+    color: white;
+}
+#footer--logo{
+    width: 12rem;
+}

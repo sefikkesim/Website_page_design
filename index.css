@@ -50,7 +50,6 @@ nav a:first-child {
     height: 100%;
     color: white;
     line-height: 3rem;
-    
 }
 .main2{
     background-color: rgb(53,66,74);
@@ -97,7 +96,7 @@ nav a:first-child {
     justify-content: center;
     align-items: center;
 }
-#footer--p{
+#footer--content{
     color: white;
 }
 h4{
