@@ -73,6 +73,9 @@ nav a:first-child {
 .main2-what-we-do,.main2--about{
     margin:2rem ;
 }
+.main2-what-we-do{
+    height: 13rem;
+}
 .main2--about p{
     margin:1rem 0 ;
 }
