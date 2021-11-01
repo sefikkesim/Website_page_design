@@ -50,6 +50,7 @@ nav a:active {
     height: 100%;
     color: white;
     line-height: 3rem;
+    padding: 2rem;
 }
 .main2{
     background-color: rgb(53,66,74);
@@ -108,22 +109,26 @@ h4{
 #footer--logo{
     width: 12rem;
 }
-@media (max-width: 650px){
+@media (max-width: 550px){
 .header{
     justify-content:center;
+    flex-direction: column;
  }   
-.header--left{
-    display: none;
-    }
-    .main2{
-    display: flex;
+.header--left,.header--right{
     justify-content: center;
+    margin: 5px;
     }
-    .main2--left{
-    display: none;
+.main2{
+    justify-content:center;
+    flex-direction: column;
+    }   
+ .main2--left,.main2--right{
+    justify-content: center;
+    margin: 5px;
     }
-}
-@media (max-width: 500px){
+    body{
+        font-size: smaller;
+    }
     .container{
     display: grid;
     grid-template-columns: 100%;
