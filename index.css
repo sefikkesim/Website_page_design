@@ -120,6 +120,7 @@ h4{
 .header{
 justify-content:center;
 flex-direction: column;
+padding: 1rem;
 }   
 .header--left,.header--right{
 justify-content: center;
@@ -131,6 +132,7 @@ margin: 5px;
 .main2{
 justify-content:center;
 flex-direction: column;
+padding: 1rem;
 }   
 .main2--left,.main2--right{
 justify-content: center;
@@ -145,5 +147,8 @@ text-align: center;
 }
 #img_html,#img_css,#img_graphic{
 width: 5rem;
+}
+footer{
+padding: 1rem;
 }
 }
