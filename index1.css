@@ -5,15 +5,13 @@
 }
 .container{
     width: 100%;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 90px 90px 660px 250px;
 }
 .header{
     background-color:rgb(53,66,74);
     border-bottom: 0.2rem solid purple;
     display: flex;
     justify-content: space-between;
+    padding: 2rem;
 }
 .header--left{
     display: flex;
@@ -43,6 +41,7 @@ nav a:active {
     background-color: rgb(53,66,74);
     display: flex;
     justify-content: space-between;
+    padding: 2rem;
 }
 .main1--left,.main1--right{
     color: white;
@@ -67,6 +66,7 @@ nav a:active {
 .main2{
    display: flex;
     letter-spacing: 0.05rem;
+    padding: 3rem;
 }
 .main2-what-we-do,.main2--about{
     margin:2rem ;
@@ -121,15 +121,13 @@ body{
 .main2{
     display: flex;
     flex-direction: column;
+    padding: 2rem;
 }
 .main2-what-we-do,.main2--about{
-    margin:1rem ;
+    margin:3rem ;
 }
 }
 @media (max-width: 500px){
 .container{
-display: grid;
-grid-template-rows:  75px 75px 550px 90px;
-
 }
 }

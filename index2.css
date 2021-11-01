@@ -1,22 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
-
-    
+    box-sizing: border-box; 
 }
 .container{
     width: 100%;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 90px 90px 600px 120px ;
 }
 .header{
     background-color:rgb(53,66,74);
     border-bottom: 0.2rem solid purple;
     display: flex;
     justify-content: space-between;
+    padding: 2rem;
 }
 .header--left{
     display: flex;
@@ -46,6 +41,7 @@ nav a:active {
     background-color: rgb(53,66,74);
     display: flex;
     justify-content: space-between;
+    padding: 2rem;
 }
 .main1--left,.main1--right{
     color: white;
@@ -69,6 +65,8 @@ nav a:active {
 }
 .main2{
     display: flex;
+    justify-content: space-between;
+    
 }
 .main2-services{
     margin: 2rem 2rem 0.2rem 1rem;
@@ -87,12 +85,12 @@ nav a:active {
     margin: 0.8rem 0.8rem;
     letter-spacing: 0.01rem;
 }
+
 .main2--form-content{
     background-color:rgb(53,66,74);
     margin: 1rem 0.5rem 0 3rem;
     padding: 1rem 2.5rem 1rem 1rem;
 }
-
 .main2--form-content h3{
     color: white;
     margin: 1rem 0 ;
@@ -125,38 +123,43 @@ label{
     width: 12rem;
 }
 @media (max-width: 850px){
-    .header{
-        justify-content:center;
-        flex-direction: column;
-     }   
-    .header--left,.header--right{
-        justify-content: center;
-        margin: 5px;
-        }
-    .main1{
-        justify-content:center;
-        flex-direction: column;
-        }   
-     .main1--left,.main1--right{
-        justify-content: center;
-        margin: 5px;
-        }
-        body{
-        font-size: smaller;
-        }
-        .main2--design,.main2--maintenance,.main2--hosting{
-            overflow-y: auto;
-            padding: 0.5rem;
-        }
-        .main2{
-            display: flex;
-            flex-direction: column;
-        }
-        .main2-services{
-            justify-content: center;
-        }
-        .main2--form-content{
-           justify-content: center;
-           border: 5px solid red;
-        }
-    }
+.header{
+    justify-content:center;
+    flex-direction: column;
+    padding: 1rem;
+}   
+.header--left,.header--right{
+    justify-content: center;
+     margin: 5px;
+}
+.main1{
+    justify-content:center;
+    flex-direction: column;
+    padding: 1rem;
+}   
+.main1--left,.main1--right{
+    justify-content: center;
+    margin: 5px;
+ }
+body{
+    font-size: smaller;
+}
+.main2--design,.main2--maintenance,.main2--hosting{
+    overflow-y: auto;
+    padding: 0.5rem;
+}
+.main2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem ;
+}
+#main1--form-name,#main1--form-email,#main1--form-textarea{
+    width: 15rem;
+}
+.main2--form-content{
+  
+    margin: 1rem;
+    padding: 1rem 2.5rem 1rem 1rem;
+}
+}
