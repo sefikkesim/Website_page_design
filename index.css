@@ -80,6 +80,7 @@ nav a:active {
 .main3{
     background-color: rgb(247, 241, 241);
     display: flex;
+    padding: 2rem;
 }
 .main3--html,.main3--css,.main3--graphic_design{
     display: flex;
@@ -127,7 +128,7 @@ h4{
     margin: 5px;
     }
     body{
-        font-size: smaller;
+    font-size: smaller;
     }
     .container{
     display: grid;
@@ -137,6 +138,7 @@ h4{
     .main3{
     display: flex;
     flex-direction: column;
+    padding: 1rem;
     }
     .main1 p{
     text-align: center;
